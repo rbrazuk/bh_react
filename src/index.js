@@ -7,6 +7,9 @@ import promise from 'redux-promise';
 
 import Home from './components/home';
 import Shows from './components/shows';
+import Music from './components/music';
+import Header from './components/header';
+import Footer from './components/footer';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
@@ -15,12 +18,13 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
   <BrowserRouter>
     <div>
-      <div>HEADER</div>
+      <Header />
       <Switch>
         <Route path="/shows" component={Shows}/>
+        <Route path="/music" component={Music}/>
         <Route path="/" component={Home}/>
       </Switch>
-      <div>FOOTER</div>
+      <Footer />
     </div>
   </BrowserRouter>
   </Provider>
