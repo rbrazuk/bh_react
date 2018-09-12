@@ -1,9 +1,6 @@
 * {
   font-family: 'Roboto', sans-serif;
-}
-
-html {
-  font-size: 62.5%;
+  color: #555;
 }
 
 header {
@@ -44,10 +41,11 @@ a {
 .contact-icons i {
   margin: 0 15px;
   font-size: 1rem;
-  background-color: #000;
-  border: 1px solid black;
+  background-color: #6A605A;
+  border: 1px solid #6A605A;
   border-radius: 50%;
   padding: 10px;
+  color: #fff;
 }
 
 .contact-icons a,
@@ -98,8 +96,8 @@ a {
   }
 
   .contact-icons i:hover {
-    background-color: #cccccc;
-    border-color: #cccccc;
+    background-color: #827D6F;
+    border-color: #827D6F;
     color: #fff;
   }
 

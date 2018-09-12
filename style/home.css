@@ -1,0 +1,11 @@
+.main-image {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 700px) {
+  .main-image {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+}
