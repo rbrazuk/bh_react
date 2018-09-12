@@ -15,6 +15,10 @@
   padding: 10px 0;
 }
 
+.buttons-container a:first-child {
+  margin-right: 0;
+}
+
 #shows-list {
   text-align: left;
   width: 100%;
@@ -25,6 +29,10 @@
   padding: 0;
   list-style: none;
   padding-bottom: 10px;
+}
+
+#shows-list li .row {
+  margin: 0;
 }
 
 #shows-list li .row::after {

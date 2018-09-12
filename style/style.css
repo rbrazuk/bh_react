@@ -43,7 +43,7 @@ a {
 
 .contact-icons i {
   margin: 0 15px;
-  font-size: 2rem;
+  font-size: 1rem;
   background-color: #000;
   border: 1px solid black;
   border-radius: 50%;
@@ -100,6 +100,7 @@ a {
   .contact-icons i:hover {
     background-color: #cccccc;
     border-color: #cccccc;
+    color: #fff;
   }
 
   main {
