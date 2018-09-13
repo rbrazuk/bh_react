@@ -92,7 +92,7 @@
     margin: 10px;
   }
 
-  .shows-list-button a:hover {
+  .shows-list-button:hover {
     font-size: 1em;
     color: #fff;
   }

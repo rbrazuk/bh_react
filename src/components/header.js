@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default (props) => {
   return (
@@ -11,10 +11,10 @@ export default (props) => {
       <nav>
         <ul className="nav-links">
           <li>
-            <Link className="nav-link" to="/shows">shows</Link>
+            <NavLink className="nav-link" to="/shows">shows</NavLink>
           </li>
           <li>
-          <Link className="nav-link" to="/music">music</Link>
+          <NavLink className="nav-link" to="/music">music</NavLink>
           </li>
         </ul>
       </nav>
