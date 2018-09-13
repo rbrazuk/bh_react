@@ -17,23 +17,23 @@
   margin-right: 0;
 }
 
-#shows-list {
+.shows-list {
   text-align: left;
   width: 100%;
   padding-left: 0;
 }
 
-#shows-list li {
+.shows-list li {
   padding: 0;
   list-style: none;
   padding-bottom: 10px;
 }
 
-#shows-list li .row {
+.shows-list li .row {
   margin: 0;
 }
 
-#shows-list li .row::after {
+.shows-list li .row::after {
   display: block;
   content: '';
   height:1px;
@@ -42,7 +42,7 @@
   margin: 10px auto;
 }
 
-#shows-list li:last-child::after {
+.shows-list li:last-child::after {
   height: 0;
 }
 

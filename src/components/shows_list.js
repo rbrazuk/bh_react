@@ -10,15 +10,13 @@ export default class ShowsList extends Component {
     return _.map(this.props.shows, show => {
       return (
         <ShowsListItem key={show.date} show={show}/>
-      )
+      );
     })
   }
 
   render() {
     return (
-      <div className="shows-container">
-        <ul id="shows-list">{this.renderShows()}</ul>
-      </div>
+        <ul className="shows-list">{this.renderShows()}</ul>
     );
   }
 }

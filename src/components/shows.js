@@ -18,7 +18,10 @@ class Shows extends Component {
       )
     }
     return (
-      <ShowsList shows={this.props.shows} />
+      <div className="shows-container">
+        <ShowsList shows={this.props.shows} />
+      </div>
+
     );
   }
 }

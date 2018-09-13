@@ -24,11 +24,6 @@ footer {
   bottom: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #7da6e8;
-}
-
 .header-img {
   width: 40%;
   margin-bottom: 20px;
@@ -63,6 +58,10 @@ a {
 
 .nav-links li {
   display: inline;
+}
+
+a {
+  color: #910d0d !important;
 }
 
 .nav-link {
