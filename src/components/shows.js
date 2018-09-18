@@ -10,7 +10,7 @@ class Shows extends Component {
   }
 
   render() {
-    if (this.props.shows == {}) {
+    if (this.props.shows === undefined) {
       return (
         <div>
           loading shows...

@@ -42,7 +42,7 @@
   margin: 10px auto;
 }
 
-.shows-list li:last-child::after {
+.shows-list li:last-child .row::after {
   height: 0;
 }
 
@@ -54,19 +54,23 @@
 
 .shows-list-date {
   margin-bottom: 5px;
-  color: #6A605A;
+  color: #6D8157;
 }
 
 .shows-list-button {
   border: 1px solid #ccc;
   text-align: center;
-  color: #000;
   padding: 10px 0;
   text-decoration: none;
   margin: 0 auto 10px auto;
   display: block;
   width: 90%;
   float: right;
+  color: #555 !important;
+}
+
+.disabled {
+  color: #CCC !important;
 }
 
 .other-bands {
@@ -93,16 +97,21 @@
   }
 
   .shows-list-button:hover {
-    font-size: 1em;
-    color: #fff;
+    border: 1px solid #AD5C4C;
+    background: #AD5C4C;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
   }
 
   .shows-list-button:hover {
-    border: 1px solid #6698C2;
-    background: #6698C2;
     color: #fff;
-    text-align: center;
-    text-decoration: none;
+  }
+
+  .disabled:hover {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #ccc !important;
   }
 
   .show-info-div {
